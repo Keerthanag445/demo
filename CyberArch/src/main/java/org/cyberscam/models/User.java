@@ -1,16 +1,18 @@
-package org.cybersecurity;
+package org.cyberscam.models;
 
 public class User {
     private int UserID;
     private String UserName;
     private String Email;
     private String Password;
+    private String Role;
 
     public User(){}
     public User(String UserName,String Email,String Password){
         this.UserName=UserName;
         this.Email=Email;
         this.Password=Password;
+        this.Role="User";
     }
 
     public int getUserID() {
@@ -43,5 +45,13 @@ public class User {
 
     public void setPassword(String password) {
         Password = password;
+    }
+
+    public String getRole(){
+        return Role;
+    }
+
+    public void setRole(String role) {
+        this.Role=Role;
     }
 }

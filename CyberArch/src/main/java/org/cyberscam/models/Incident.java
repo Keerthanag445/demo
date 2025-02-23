@@ -1,4 +1,4 @@
-package org.cybersecurity;
+package org.cyberscam.models;
 
 public class Incident {
     private int IncidentId;
@@ -23,6 +23,7 @@ public class Incident {
     public int getIncidentId() {
         return IncidentId;
     }
+
     public void setIncidentId(int IncidentId) {
         this.IncidentId = IncidentId;
     }
@@ -30,6 +31,7 @@ public class Incident {
     public int getUserId() {
         return UserId;
     }
+
     public void setUserId(int UserId) {
         this.UserId = UserId;
     }
@@ -37,6 +39,7 @@ public class Incident {
     public String getTitle() {
         return Title;
     }
+
     public void setTitle(String Title) {
         this.Title = Title;
     }
@@ -44,6 +47,7 @@ public class Incident {
     public String getDescription() {
         return Description;
     }
+    
     public void setDescription(String Description) {
         this.Description = Description;
     }
@@ -51,6 +55,7 @@ public class Incident {
     public int getCategoryId() {
         return CategoryId;
     }
+
     public void setCategoryId(int CategoryId) {
         this.CategoryId = CategoryId;
     }
@@ -58,12 +63,15 @@ public class Incident {
     public String getEvidencePath() {
         return EvidencePath;
     }
+
     public void setEvidencePath(String EvidencePath) {
         this.EvidencePath = EvidencePath;
     }
+
     public String getStatus() {
         return Status;
     }
+
     public void setStatus(String Status) {
         this.Status = Status;
     }
